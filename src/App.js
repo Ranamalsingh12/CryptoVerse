@@ -1,6 +1,6 @@
-import React from "react";
-import { Switch, Route, Link } from "react-router-dom";
-import { Layout, Typography } from "antd";
+import React from 'react';
+import { Switch, Route, Link } from 'react-router-dom';
+import { Layout, Typography } from 'antd';
 
 import {
   Exchanges,
@@ -9,8 +9,8 @@ import {
   Cryptocurrencies,
   CryptoDetails,
   Navbar,
-} from "./components";
-import "./App.css";
+} from './components';
+import './App.css';
 
 const App = () => (
   <div className="app">
@@ -21,7 +21,7 @@ const App = () => (
       <Layout>
         <div className="routes">
           <Switch>
-            <Route exact path="/">
+            <Route exact path="/CryptoVerse/">
               <Homepage />
             </Route>
             <Route exact path="/exchanges">
@@ -42,12 +42,12 @@ const App = () => (
       <div className="footer">
         <Typography.Title
           level={5}
-          style={{ color: "white", textAlign: "center" }}
+          style={{ color: 'white', textAlign: 'center' }}
         >
           Copyright © 2021
           <Link to="https://github.com/Ranamalsingh12">
             Made with ❤️ By RanaMs.
-          </Link>{" "}
+          </Link>
           <br />
           All Rights Reserved.
         </Typography.Title>
