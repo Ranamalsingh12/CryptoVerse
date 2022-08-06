@@ -34,16 +34,11 @@ const App = () => (
       </Layout>
       <div className="footer">
         <Typography.Title level={5} style={{ color: 'white', textAlign: 'center' }}>Copyright © 2021
-          <Link to="/">
-            Cryptoverse Inc.
+          <Link to="https://github.com/Ranamalsingh12">
+            Made with ❤️ By RanaMs.
           </Link> <br />
           All Rights Reserved.
         </Typography.Title>
-        <Space>
-          <Link to="/">Home</Link>
-          <Link to="/exchanges">Exchanges</Link>
-          <Link to="/news">News</Link>
-        </Space>
       </div>
     </div>
   </div>
