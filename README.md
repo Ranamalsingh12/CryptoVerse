@@ -7,3 +7,4 @@
 <p><font size="3">
   This is Cryptoverse - A website which has all data regarding cryptocurrenies. It website is built using <strong><em>React.JS, Redux-Toolkit, millyfy, Chart.JS, HTML-react-parser, moment, Ant Design, Axios, UUID.</em></strong>. It contains pages which include news regarding Cryptocurreny, top 100 Cryptocurreny, All previous data and performance in graph of the Cryptocurreny. 
 </p>
+Next update will come soon regarding readme
